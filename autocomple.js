@@ -53,6 +53,10 @@ inputBox.addEventListener("keypress", function(event) {
       event.preventDefault();
       document.getElementById("button").click();
     }
+
+    if(!result.length){
+        resultsBox.innerHTML = "";
+    }
   }); 
 
 function display(result){
