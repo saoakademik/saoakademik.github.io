@@ -42,6 +42,7 @@ inputBox.onkeyup = function(){
     }
     display(result.map((item) => [item.nama, item.link]));
     resultLink = result[0].link;
+    resultnama = result[0].nama;
 
     if(!result.length){
         resultsBox.innerHTML = "";
@@ -61,19 +62,21 @@ inputBox.addEventListener("keypress", function(event) {
 
 function display(result){
     const content = result.map((list)=>{
-        return `<li onclick=jumpToLink("${list[1]}")> ${list[0]}</li>`;
-
+        return `<li onclick="jumpToLink('${list[1]}', '${list[0]}')"> ${list[0]}</li>`;
     });
 
     resultsBox.innerHTML = `<ul>${content.join('')}</ul>`;
 }
 
-function jumpToLink(link) {
+function jumpToLink(link, text) {
+    inputBox.value = text;
     window.location.href = link;
     resultsBox.innerHTML = "";
 }
 
 function gotolink(){
+    inputBox.value = `${resultnama}`;
     window.location.href = `${resultLink}`;
+    resultsBox.innerHTML = "";
 }
 
