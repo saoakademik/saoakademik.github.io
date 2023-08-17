@@ -9,15 +9,30 @@
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="search-box">
-        <div class="row">
-            <input type="text" id="input-box" placeholder="Enter your query"
-            autocomplete="off">
-            <button id="button" onclick=gotolink()><i class="fa-solid fa-magnifying-glass"></i></button>
+    <section>
+        <header>
+            <ul>
+                <li> <a href="https://drive.google.com/drive/u/1/folders/1Q6lQScaVl6y1Q9yfwsHBBbEwkqhlS9zE"> Fast Track </a> </li>
+                <li> <a href="https://drive.google.com/drive/u/1/folders/0B20OGwmrcxo6WlEzSHk5OWc0NnM?resourcekey=0-PLYaaD9UfPqNUlop0nOSrg"> Software </a> </li>
+                <li> <a href="https://docs.google.com/spreadsheets/d/1CNP84lOdLmBmjpASFig55yMzc4ujF4n3p01uB2qzeeM/edit"> List TA </a> </li>
+                <li> <a href="https://docs.google.com/spreadsheets/d/1pYipfeGzVXd138e5eR7ZgzyKFBbMZKLc/edit#gid=898851081"> GPA Calc </a> </li>
+            </ul>
+        </header>
+        <div class="main">
+            <img src="Images\Google-logo.png" alt="Logo">
+
+            <div class="search-box">
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Enter your query"
+                    autocomplete="off">
+                    <button id="button" onclick=gotolink()><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="result-box" id="result">
+                </div>
+            </div>
+
         </div>
-        <div class="result-box" id="result">
-        </div>
-    </div>
+    </section>
 <script src="autocomple.js"></script>
 </body>
 </html>
