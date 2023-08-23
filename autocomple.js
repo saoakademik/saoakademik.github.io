@@ -40,12 +40,14 @@ inputBox.onkeyup = function(){
            return keyword.singkatan.toLowerCase().includes(input.toLowerCase()) || keyword.nama.toLowerCase().includes(input.toLowerCase());
         });
     }
-    display(result.map((item) => [item.nama, item.link]));
-    resultLink = result[0].link;
-    resultnama = result[0].nama;
 
-    if(!result.length){
-        resultsBox.innerHTML = "";
+    
+    
+    if(result.length){
+        display(result.map((item) => [item.nama, item.link]));
+        resultLink = result[0].link;
+        resultnama = result[0].nama;
+        // resultsBox.innerHTML = "";
     }
 }
 
