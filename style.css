@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 section{
     position: relative;
     width: 100%;
@@ -40,6 +41,10 @@ section header ul li a{
     font-size: 18px;
 }
 
+section header img{
+    display: none;
+}
+
 body{
     background:  #262a2f;
     color: #333;
@@ -47,14 +52,16 @@ body{
   
 .search-box{
     position: relative;
-    width: 600px;
+    width: 50%;
+    min-width: 600px;
+    height: 50px;
     background: #fff;
     margin: 0 auto;
     border-radius: 5px;
 }
 
 .main {
-    width: 580px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex: none;
@@ -74,12 +81,14 @@ body{
     padding: 10px 20px;
 }
 
+
 input{
     flex: 1;
-    height: 50px;
+    height: 40px;
     background: transparent;
     border: 0;
     outline: 0;
+    padding-bottom: 15px;
     font-size: 18px;
     color: #333;
 }
@@ -91,10 +100,13 @@ button{
 }
 
 button .fa-solid{
+    display: block;
     width: 25px;
     color: #555;
     font-size: 22px;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 ::placeholder{
@@ -104,7 +116,7 @@ button .fa-solid{
 .result-box {
 	position: absolute;
 	background-color: white;
-	width: 600px;
+	width: 100%;
 }
 
 .result-box ul{
@@ -127,4 +139,39 @@ button .fa-solid{
     flex: 0;
     max-height: 150px;
     overflow-y: scroll;
+}
+
+@media (max-width: 600px) {
+  button .fa-solid{
+    display: none;
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-box{
+    position: relative;
+    width: 90%;
+    min-width: 0px;
+    height: 50px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .main img{
+    width: 90%;
+  }
+  
+  section header ul li a{
+    font-size: 15px;
+  }
+
+  section header ul li{
+    list-style: none;
+    margin-left: 10px;
+  }
 }
