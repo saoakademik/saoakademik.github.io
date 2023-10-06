@@ -46,7 +46,7 @@ const availableKeywords = [
   },
   {
     nama: "MA2231 - Kalkulus Peubah Banyak",
-    singkatan: "KPB",
+    singkatan: "kpb",
     link: "https://drive.google.com/drive/folders/1rywdb4FGOj_hVzu_nK4fAyOI_vWWDPSo?usp=drive_link",
   },
   {
