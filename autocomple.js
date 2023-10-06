@@ -16,12 +16,12 @@ const availableKeywords = [
   },
   {
     nama: "MA2031 - Matematika III",
-    singkatan: "mattiga & mat3 & mat iii & mat 3",
+    singkatan: "mattiga & matig & mat3 & mat iii & mat 3",
     link: "https://drive.google.com/drive/folders/1ziTKLSEpFVodnIaGFnDfglIEX_18BSEd?usp=drive_link",
   },
   {
     nama: "MA2075 - Pengenalan Pemodelan Matematika",
-    singkatan: "pengpemod",
+    singkatan: "pengpemod & pengmod",
     link: "https://drive.google.com/drive/folders/1IWJ8kIlsYq69yow0N_en1nPfnd7VTemh?usp=drive_link",
   },
   {
@@ -171,7 +171,7 @@ const availableKeywords = [
   },
   {
     nama: "MA3271 - Pemodelan Matematika",
-    singkatan: "pemod",
+    singkatan: "pemod & model matematika",
     link: "https://drive.google.com/drive/folders/1B9AEBby9XAYXZ8Ob-XwyrmQYGPlfqDeD?usp=drive_link",
   },
   {
@@ -206,11 +206,11 @@ const availableKeywords = [
   },
   {
     nama: "MA4031 - Fungsi Real",
-    singkatan: "fungril",
+    singkatan: "fungril & fungreal",
     link: "https://drive.google.com/drive/folders/195mh9RJJDPjAtm6GOZlBQkd0UpywCSIz?usp=drive_link",
   },
   {
-    nama: "MA4071 - Penganatr Sistem Dinamik",
+    nama: "MA4071 - Pengantar Sistem Dinamik",
     singkatan: "pengsisdin",
     link: "https://drive.google.com/drive/folders/1VogxHkQ3TQflIK7gjcixYpFCTUhYusFh?usp=drive_link",
   },
@@ -226,7 +226,7 @@ const availableKeywords = [
   },
   {
     nama: "MA4171 - Teori Kontrol Linear",
-    singkatan: "tkl",
+    singkatan: "tkl & tekon",
     link: "https://drive.google.com/drive/folders/1Yfh_pC7OmvOr9HafUQAg6kR6tMjpJCK0?usp=drive_link",
   },
   {
@@ -246,7 +246,7 @@ const availableKeywords = [
   },
   {
     nama: "AK4061 - Keuangan Korporasi",
-    singkatan: "kekorp",
+    singkatan: "kekorp & kk",
     link: "https://drive.google.com/drive/folders/1cBNTkxBXXAPZbArO0ocCEKUpMEN8itsS?usp=drive_link",
   },
   {
