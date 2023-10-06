@@ -16,7 +16,7 @@ const availableKeywords = [
   },
   {
     nama: "MA2031 - Matematika III",
-    singkatan: "mattiga", "mat3", "mat iii", mat 3",
+    singkatan: "mattiga & mat3 & mat iii & mat 3",
     link: "https://drive.google.com/drive/folders/1ziTKLSEpFVodnIaGFnDfglIEX_18BSEd?usp=drive_link",
   },
   {
@@ -66,7 +66,7 @@ const availableKeywords = [
   },
   {
     nama: "MA2281 - Statistika non-parametrik",
-    singkatan: "statpar", "statnonpar",
+    singkatan: "statpar & statnonpar",
     link: "https://drive.google.com/drive/folders/1VYqsJ9W8xhbOiLXlekoA8M8LHgBh-Wq6?usp=drive_link",
   },
   {
@@ -201,7 +201,7 @@ const availableKeywords = [
   },
   {
     nama: "AK3283 - Model Risiko I",
-    singkatan: "modris", "modrisi", "modris i",
+    singkatan: "modris & modris1 & modris 1 & modris i",
     link: "https://drive.google.com/drive/folders/1kNtXLOKohegSO62hJUQDJPyGlEbymWwd?usp=drive_link",
   },
   {
@@ -231,7 +231,7 @@ const availableKeywords = [
   },
   {
     nama: "MA4181 - Pengantar Proses Stokastik",
-    singkatan: "prostok", "pengprostok",
+    singkatan: "prostok & pengprostok",
     link: "https://drive.google.com/drive/folders/1EXozBOUcOcjUqKaSHC8byWnpVyDBxrf5?usp=drive_link",
   },
   {
@@ -256,7 +256,7 @@ const availableKeywords = [
   },
   {
     nama: "AK4082 - Model Linear Lanjut",
-    singkatan: "modlin", "glm",
+    singkatan: "modlin & glm",
     link: "https://drive.google.com/drive/folders/1wUk08DoKifsZKeVvjsrBlHNiDwINUKYW?usp=drive_link",
   },
   {
@@ -266,12 +266,12 @@ const availableKeywords = [
   },
   {
     nama: "AK4183 - Model Risiko II dan Simulasi",
-    singkatan: "modris", "modris2", "modris 2", "modris ii",
+    singkatan: "modris & modris2 & modris 2 & modris ii",
     link: "https://drive.google.com/drive/folders/1Zq-cux9WUFdmsgBua4QSCIvAkWSE5VSn?usp=drive_link",
   },
   {
     nama: "AK4185 - Asuransi Jiwa I",
-    singkatan: "asji", "asji1", "asji 1", "asji i",
+    singkatan: "asji & asji1 & asji 1 & asji i",
     link: "https://drive.google.com/drive/folders/1d8ysSq2I72Ir-J4uI0AYsp6kmRz-hRn-?usp=drive_link",
   },
   {
@@ -281,7 +281,7 @@ const availableKeywords = [
   },
   {
     nama: "AK4285 - Asuransi Jiwa II",
-    singkatan: "asji", "asji2", "asji 2", "asji ii",
+    singkatan: "asji & asji2 & asji 2 & asji ii",
     link: "https://drive.google.com/drive/folders/1tv-TjajGUy8ChEPoXOAUw16ra99Y53-0?usp=drive_link",
   },
   
